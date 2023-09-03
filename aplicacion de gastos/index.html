@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Gastos personales</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="titulo">Gastos personales</h1>
+      <h2  id="saldos" class="subtitulo">Saldo disponible:</h2>
+    </header>
+
+    <article>
+      <span id="ingresar" class="subtitulo ingreso">Ingreso:</span>
+      <span id="egresar" class="subtitulo egreso">Egreso:</span>
+    </article>
+    <div class="container">
+      <form action="">
+        <input class="descripcion" type="text" placeholder="Ingrese concepto" />
+        <input class="valor" type="number" placeholder="$" required>
+        <input class="entrar" type="button" value="➕" />
+        <input class="sacar" type="button" value="➖" />
+
+      </form>
+
+      <div >
+        <ul></ul>
+      </div>
+    
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
